@@ -1,0 +1,43 @@
+{
+  "name": "reactjs-gym",
+  "version": "1.0.0",
+  "description": "",
+	"dependencies": {
+		"axios": "^0.16.1",
+		"flux": "^3.1.2",
+		"immutable": "^3.8.1",
+		"react": "^15.5.4",
+		"react-dom": "^15.5.4",
+		"react-prop-types": "^0.4.0",
+		"react-redux": "^5.0.4",
+		"react-router": "^2.0.0",
+		"react-router-dom": "^4.1.1",
+		"redux": "^3.6.0",
+		"redux-thunk": "^2.2.0"
+	},
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "jest": "^19.0.2",
+    "react-test-renderer": "^15.5.4",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "-vs-binding": {
+    "Clean": [
+      "build"
+    ]
+  }
+}
